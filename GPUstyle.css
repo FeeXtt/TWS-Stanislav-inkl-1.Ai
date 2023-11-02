@@ -1,0 +1,88 @@
+
+.card-img-top:hover {
+  transform: scale(1.02);
+  transition: all 0.2s ease-in-out;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+
+}
+
+nav a:hover {
+  color: greenyellow;
+
+}
+
+
+/*https://coolors.co/palette/f72585-7209b7-3a0ca3-4361ee-4cc9f0*/
+
+.bg-purple{
+  background-color: #7209B7;
+}
+.bg-blue{
+  background-color: #4361EE;
+}
+.brnav{
+  border-width: 0px 0px 10px 0px;
+  border-color: #4361EE;
+  border-style: solid;
+}
+
+/* když klikneš na buuton ze tridy navbar collapse se stane block a ukaze se*/
+#menu-toggle:checked~.navbar-collapse {
+  display: block;
+}
+
+.navbar-collapse {
+  display: none;
+}
+nav li:hover{
+  background-color: #F72585;
+}
+.text-aqua{
+  color: #4CC9F0;
+
+}
+.bg-snow{
+  background-color: #edede9;
+}
+.text-pink{
+  color: #F72585;
+}
+ul a{
+  color: #F72585 ;
+  text-decoration: underline;
+}
+ul a:hover{
+  color: black;
+}
+
+.zkratka {
+  position: relative;
+  display: inline;
+  text-decoration: underline;
+}
+
+.zkratka .zkratkatext {
+  visibility: hidden;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 0.2em;
+  position: absolute;
+  z-index: 1;
+}
+
+.zkratka:hover .zkratkatext {
+  visibility: visible;
+  display:inline;
+}
+.zdroj{
+  color: grey;
+}
+.zdroj a{
+  color: grey;
+}
